@@ -13,10 +13,10 @@ namespace EFCoreAssignment
                 // ------------insert , create-----------------
 
 
-                //Student student = new Student() { FName = "mohamed", Age = 5 };
-                //db.Students.Add(student);
-                //Console.WriteLine(db.Entry(student).State);
-                //db.SaveChanges();
+                Student student = new Student() { FName = "mohamed", Age = 5 };
+                db.Students.Add(student);
+                Console.WriteLine(db.Entry(student).State);
+                db.SaveChanges();
 
                 // ------------retreive-----------------
 
